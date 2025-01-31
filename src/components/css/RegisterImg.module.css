@@ -1,0 +1,56 @@
+.container{
+    background-color:#FFE7B4;
+   background-image: url('../assets/2.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 755px;
+   width: 1440px;
+}
+.title{
+   
+    color: white;
+    width: 761px;
+height: 100px;
+font-family:"Oswald";
+font-size: 70px;
+font-weight: 500;
+line-height: 100px;
+text-transform: uppercase;
+position: relative;
+left: 349px;
+top: 250px;
+}
+.para{
+ 
+    color: white;
+    width: 886px;
+height: 104px;
+font-family:"Quattrocento";
+font-size: 34.94px;
+font-weight: 700;
+line-height: 49.92px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-top: 280px;
+margin-left: 254px;
+
+
+
+}
+.btn{
+    border: none;
+    width: 184px;
+    height: 52px;
+    background-color: #4BB36B;
+   border-radius: 520px;
+   margin-left: 630px;
+   margin-top: 28px;
+   font-family: "Quattrocento";
+font-size: 24px;
+font-weight: 700;
+line-height: 26.59px;
+text-decoration-skip-ink: none;
+color: white;
+
+}

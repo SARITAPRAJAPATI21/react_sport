@@ -1,0 +1,87 @@
+.donation{
+    position: relative;
+    background-image: url('../assets/donation.png');
+    background-color:#FFE7B4;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+   width: 1440px;
+  height: 637.03px;
+
+
+
+}
+
+.donation h3{
+    position: absolute;
+
+  width: 260.42px;
+height: 71.12px;
+top:150px ;
+left: 558.91px;
+
+font-family:"Oswald";
+
+font-size: 48px;
+font-weight: 700;
+line-height: 71.14px;
+
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-transform: uppercase;
+color: white;
+
+
+
+}
+.donation p{
+
+ position: relative;
+ width: 1100.79px;
+height: 135.22px;
+top: 240px;
+left: 138.23px;
+gap: 0px;
+opacity: 0px;
+color: #ffff;
+font-family: "Quattrocento";
+font-size: 20px;
+font-weight: 700;
+line-height: 22.16px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-align: center;
+
+
+}
+.btn {
+    position: relative;
+    border: none;
+    background-color: #FBBD3B;
+    width:448px;
+    height: 52.16px;
+    top: 210px;
+    left: 475px;
+    text-decoration: none;
+    padding: 12px 40px 12px 40px;
+    gap: 8.14px;
+    border-radius: 520.73px;
+    opacity: 0px;
+    font-family:"Quattrocento";
+font-size: 22.78px;
+font-weight: 700;
+line-height: 25.24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+
+
+    
+
+  
+
+
+}

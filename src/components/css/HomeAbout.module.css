@@ -1,0 +1,71 @@
+
+.HomeAbout{
+    width: 1440px;
+    
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #FFE7B4;
+
+}
+.container1{ 
+
+ width:590.05px;
+height:316.92px;
+
+display: flex;
+flex-direction: column;
+gap: 15.92px;
+position: relative;
+left: 120px;
+top: 72px;
+
+}
+.title{
+width: 573px;
+height: 59px;
+font-family: 'Oswald';
+font-size: 40px;
+font-weight: 600;
+line-height: 59.28px;
+text-transform: uppercase;
+
+}
+.para{
+    
+    width: 590.05px;
+    height: 242px;
+    font-family: 'Quattrocento';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22.16px;
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+
+}
+
+.container2{
+    width: 588.84px;
+    height: 425.81px;
+    display: flex;
+   position: relative;
+   top: 159px;
+   left: 100px;
+
+}
+.img1,.img2{
+    width: 282px;
+height: 282px;
+
+border-radius: 16.08px;
+border: 6.43px ;
+
+
+}
+.img2{
+   position: relative;
+   top: 143px;
+    
+}

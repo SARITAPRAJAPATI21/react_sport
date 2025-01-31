@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quattrocento:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 389.44px;
+  height: 389.44px;
+  border-radius: 7.67px ;
+  overflow: hidden;
+  position: relative;
+
+ 
+
+}
+.container img{
+    width: 389.44px;
+height: 389.44px;
+border-radius: 7.67px ;
+
+}
+.text{
+    
+    position: absolute;
+    width: 177px;
+height: 24px;
+top: 270px;
+left: 80px;
+gap: 0px;
+opacity: 0px;
+font-family: '"Quattrocento", serif;';
+font-size: 22px;
+font-weight: 700;
+line-height: 24.38px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+
+}
+.btn{
+    position: absolute;
+    width: Hug (276.29px)px;
+   height: Hug (34.82px)px;
+top: 300.74px;
+left:50px;
+padding: 5.91px 23.64px 5.91px 23.64px;
+gap: 14.78px;
+border-radius: 11.82px;
+opacity: 0px;
+font-family: Quattrocento;
+font-size: 20.69px;
+font-weight: 700;
+line-height: 22.92px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background: #B95B00;
+border: none;
+color: white;
+
+}
+
+.main{
+    width: 1440px;
+    background-color: #FFE7B4;
+ padding-bottom: 167px;
+    
+}
+.regiconatiner{
+  
+    width: 1202px;
+    height: 389.44px;
+ 
+
+    display:flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+   
+}
+.title{
+
+
+    width: 212px;
+    height: 53px;
+   margin-left: 42%;
+   margin-bottom: 40px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Oswald;
+font-size: 36px;
+font-weight: 700;
+line-height: 53.35px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-transform: uppercase;
+
+    
+
+}

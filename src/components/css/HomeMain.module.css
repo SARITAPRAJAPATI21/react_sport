@@ -1,0 +1,104 @@
+
+.container{
+  width: 1440px;
+   height: 824px;
+  background-image: url('../assets/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #FFE7B4;
+   
+}
+
+.title{
+   position: relative;
+    width: 613px;
+    height: 100px;
+    top: 300px;
+   left: 120px;
+   gap: 0px;
+   font-family: "Oswald", serif;
+   text-transform: uppercase;
+   font-optical-sizing: auto;
+font-size: 70px;
+font-weight: 500;
+line-height: 100px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+
+}
+.para{
+
+   color: white;
+    width: 826px;
+  height:34.3px;
+  
+font-family: 'Quattrocento';
+font-size: 30.65px;
+font-weight: 400;
+line-height: 33.96px;
+
+position: absolute;
+left: 120px;
+top: 487px;
+
+
+}
+.btn{
+ width: 390.85px;
+height: 58.71px;
+
+position: absolute;
+top: 548px;
+left: 120px;
+display: flex;
+gap: 13.53px;
+opacity: 0px;
+
+}
+.jbtn:hover,.fbtn:hover{
+    border: none;
+    width: 208.22px;
+height: 58.71px;
+padding: 13.53px 45.09px 13.53px 45.09px;
+gap: 9.17px;
+border-radius: 587.05px ;
+background: #B95B00;
+
+opacity: 0px;
+font-family: 'Quattrocento';
+font-size: 25.68px;
+font-weight: 700;
+line-height: 28.46px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+.fbtn,.jbtn{
+  text-decoration: none;
+    width:169.11px;
+height: 58.71px;
+padding: 9.17px 22.55px 9.17px 22.55px;
+gap: 9.17px;
+border-radius: 587.05px;
+border: 2px solid white;
+color: white;
+background-color: transparent;
+
+
+font-family: 'Quattrocento';
+font-size: 25.68px;
+font-weight: 700;
+line-height: 28.46px;
+
+
+
+}
+
+.fbtn{
+    padding-left: 50px;
+}
+

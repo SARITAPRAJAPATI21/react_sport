@@ -1,0 +1,10 @@
+
+.container{
+    width: 1440px;
+    height: 600px;
+ 
+   background-color:#FFE7B4;
+   background-image: url('../assets/login.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+}

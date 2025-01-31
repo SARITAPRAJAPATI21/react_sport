@@ -1,0 +1,54 @@
+.container{
+    width: 182px;
+height: 182px;
+
+background-color: #553D1D;
+border-radius: 8px;
+
+}
+.content{
+   
+    width: 73px;
+height: 133px;
+
+margin-left: 55px;
+margin-top: 13px;
+
+}
+.number{
+  
+    width: 73px;
+height: 119px;
+ font-family: "Oswald";
+font-size: 80px;
+font-weight: 700;
+line-height: 118.56px;
+text-align: left;
+color: white;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.text{
+   
+    width: 68px;
+    height: 27px;
+    font-family: 'Quattrocento';
+font-size: 24px;
+font-weight: 700;
+line-height: 26.59px;
+color: white;
+
+}
+.timecontainer{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   gap: 24px;
+   background-color: #FFE7B4;
+   padding-top: 130px;
+   width: 1440px;
+
+}

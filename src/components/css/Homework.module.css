@@ -1,0 +1,83 @@
+.work{
+  width: 1440px;
+  height: 782px;
+  background-color: #FFE7B4;
+  display: flex;
+  
+}
+.heading{
+  width: 220px;
+height: 53px;
+top: 3105px;
+left: 124px;
+gap: 0px;
+opacity: 0px;
+font-family: 'Oswald';
+font-size: 36px;
+font-weight: 700;
+line-height: 53.35px;
+text-transform: uppercase;
+margin-left: 124px;
+margin-bottom: 24px;
+
+
+}
+.process{
+
+  width: 404px;
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+ 
+  margin-left: 124px;
+  margin-bottom: 36px;
+}
+.bg{
+  width: 30px;
+  height: 31px;
+  background-color:#4BB36B;
+  color: white;
+  padding-left: 10px;
+  border-radius: 20px;
+  text-decoration:dashed black;
+  margin-right: 25px;
+ 
+}
+.pic{
+
+width: 588px;
+height: 453px;
+position: absolute;
+top: 3086px;
+left: 735px;
+border-radius: 8px;
+
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 180px;
+  margin-right: 180px;
+ 
+}
+.im2{
+
+width: 282px;
+height: 282px;
+position: absolute;
+top: 171px;
+
+margin-left: 16px;
+border-radius: 8px ;
+border: 6px solid white ;
+
+}
+.im1{
+width: 282px;
+height: 282px;
+border-radius: 8px ;
+border: 6px solid white ;
+
+
+}

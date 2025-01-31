@@ -1,0 +1,110 @@
+.container{
+    width: 1440px;
+    background-color: #FFE7B4;
+    padding-top: 314px;
+    padding-bottom: 175px;
+}
+
+.form{
+   
+    width: 1203px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+  
+  margin-left: 70px;
+    
+}
+#namediv,#passdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+   
+    height: 117px;
+
+}
+#emailIn,#passIn{
+ 
+    height: 74px;
+    border-radius: 8px;
+
+}
+.labele{
+    
+    width: 174px;
+height: 27px;
+font-family:"Quattrocento";
+font-size: 24px;
+font-weight: 700;
+line-height: 26.59px;
+
+}
+.labele::after,.labelp::after{
+    content: '*';
+    color: red;
+}
+.labelp{
+   
+    width: 117px;
+    height: 27px;
+    font-family:"Quattrocento";
+font-size: 24px;
+font-weight: 700;
+line-height: 26.59px;
+
+
+
+}
+.content2{
+   
+    width: 224px;
+height: 268.07px;
+margin-top: 34px;
+margin-left: 70px;
+
+
+
+}
+.lostpass{
+   
+    width: 224px;
+    height: 27px;
+   text-decoration: none;
+   color:  #5992FF;
+   
+   font-family: "Quattrocento";
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 26.59px;
+  
+   
+    
+     
+}
+#check{
+ 
+    width: 213px;
+    font-family:"Quattrocento";
+font-size: 24px;
+font-weight: 400;
+
+margin-top: 100px;
+
+}
+.btn{
+    
+    width: 184px;
+    height: 52px;
+    font-family:"Quattrocento";
+font-size: 24px;
+font-weight: 700;
+line-height: 26.59px;
+color: white;
+background-color: #B95B00;
+border-radius: 552px;
+margin-top: 45px;
+
+
+}

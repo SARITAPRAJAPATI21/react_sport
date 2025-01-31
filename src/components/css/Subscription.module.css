@@ -1,0 +1,148 @@
+.container{
+    width: 1440px;
+    height: 1387px;
+    background-color: #FFE7B4 ;
+  
+}
+
+.group1{
+    width: 849px;
+    position: absolute;
+    left: 275px;
+    top: 850px;
+    display: flex;
+    flex-direction: row;
+   
+ 
+}
+.g1btn{
+    background-color: #FFE7B4;
+    border: 1px solid #553D1D;
+ width: 423px;
+height: 100px;
+font-family: 'Quattrocento';
+font-size: 36px;
+font-weight: 700;
+line-height: 39.89px;
+color:#553D1D ;
+
+}
+.g1btn:hover{
+    background-color: #553D1D;
+    color: white;
+}
+.g2btn{
+    width: 849px;
+height: 100px;
+position: absolute;
+top: 980px;
+left: 275px;
+background-color: #B95B00;
+color: white;
+border: none;
+font-family: 'Quattrocento';
+font-size: 36px;
+font-weight: 700;
+line-height: 39.89px;
+
+
+}
+.g2btn:hover{
+    background-color: #FFE7B4;
+    color: #553D1D;
+    border: 1px solid #553D1D;
+}
+
+.group3{
+   
+    width: 849px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: absolute;
+    left: 275px;
+    top: 1143px;
+    
+}
+.title{
+
+    width: 293px;
+height: 40px;
+font-family: 'Quattrocento';
+font-size: 36px;
+font-weight: 700;
+line-height: 39.89px;
+position: absolute;
+top: 1451px;
+left: 574px;
+
+}
+.amount{
+    color: red;
+    width: 156px;
+height: 117px;
+font-family: Quattrocento;
+font-size: 106px;
+font-weight: 700;
+line-height: 117.45px;
+
+position: absolute;
+top: 1521px;
+left: 624px;
+
+}
+
+.card{
+    width: 476px;
+height: 72px;
+position: absolute;
+top: 1668px;
+left: 482px;
+font-family: 'Quattrocento';
+font-size: 20px;
+font-weight: 700;
+line-height: 22.16px;
+
+display: flex;
+flex-direction: row;
+
+
+
+
+}
+.p1{
+    border: 1px solid #553D1D;
+    border-radius: 4px ;
+    padding-right: 20px;
+    padding-left: 15px;
+    margin-right: 5px;
+  
+}
+.p2{
+    border: 1px solid #553D1D;
+    border-radius: 4px ;
+    width: 232px;
+height: 72px;
+line-height: 64px;
+padding-left: 6px;
+
+
+}
+.subbtn{
+    width: 184.7px;
+height: 52.07px;
+position: absolute;
+top: 1790px;
+left: 628px;
+padding: 12px 40px 12px 40px;
+gap: 8.14px;
+border-radius: 520.73px;
+opacity: 0px;
+background-color: #B95B00;
+color: white;
+border: none;
+
+}
+
+
+
