@@ -1,0 +1,39 @@
+.container {
+  width: 100%;               /* full width */
+  min-height: 87vh;          /* at least 60% of viewport height */
+  
+  background-color: #FFE7B4;
+  background-image: url('../assets/login.png');
+  background-repeat: no-repeat;
+  background-size: cover;     /* scales image proportionally */
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+/* OPTIONAL: If you add content inside the container */
+.container > * {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+/* ---------------- TABLET ---------------- */
+@media (max-width: 768px) {
+  .container {
+    min-height: 50vh;
+    padding: 30px 15px;
+  }
+}
+
+/* ---------------- MOBILE ---------------- */
+@media (max-width: 480px) {
+  .container {
+    min-height: 40vh;
+    padding: 20px 10px;
+  }
+}

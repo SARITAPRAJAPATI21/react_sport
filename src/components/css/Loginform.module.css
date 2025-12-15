@@ -1,0 +1,134 @@
+.container {
+  width: 100%;
+
+  background-color: #FFE7B4;
+  padding: 120px 20px 80px 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* FORM */
+.form {
+  width: 100%;
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Form Group */
+#namediv,
+#passdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Inputs */
+#emailIn,
+#passIn {
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #b6b6b6;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Labels */
+.labele,
+.labelp {
+  font-family: "Quattrocento";
+  font-size: clamp(16px, 2vw, 24px);
+  font-weight: 700;
+}
+
+.labele::after,
+.labelp::after {
+  content: "*";
+  color: red;
+}
+
+/* Content below form */
+.content2 {
+  width: 100%;
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+  align-items: flex-start;
+}
+
+/* Lost Password Link */
+.lostpass {
+  text-decoration: none;
+  color: #5992ff;
+  font-family: "Quattrocento";
+  font-size: clamp(16px, 2vw, 24px);
+  font-weight: 700;
+}
+
+/* Checkbox */
+#check {
+  display: flex;
+  align-items: center;
+  font-family: "Quattrocento";
+  font-size: clamp(14px, 1.8vw, 20px);
+  font-weight: 400;
+}
+
+/* Submit Button */
+.btn {
+  width: 100%;
+  max-width: 200px;
+  height: 50px;
+  font-family: "Quattrocento";
+  font-size: clamp(16px, 2vw, 24px);
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+  background-color: #b95b00;
+  border-radius: 520px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  align-self: center;
+}
+
+/* ---------------- TABLET ---------------- */
+@media (max-width: 768px) {
+  .form {
+    max-width: 100%;
+  }
+
+  .content2 {
+    max-width: 100%;
+    align-items: center;
+  }
+}
+
+/* ---------------- MOBILE ---------------- */
+@media (max-width: 480px) {
+  #emailIn,
+  #passIn {
+    height: 45px;
+  }
+
+  .btn {
+    height: 45px;
+  }
+
+  .labele,
+  .labelp,
+  .lostpass {
+    font-size: 16px;
+  }
+
+  #check {
+    font-size: 14px;
+  }
+}

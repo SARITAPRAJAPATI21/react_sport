@@ -1,0 +1,102 @@
+/* Navbar Layout */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 24px;
+  background-color: #553D1D;
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+}
+
+/* -------- Desktop Menu -------- */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  transition: all 0.3s ease;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-family: "Quattrocento";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* -------- Hamburger Icon (hidden in desktop) -------- */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.bar,
+.bar1open,
+.bar2open,
+.bar3open {
+  width: 30px;
+  height: 4px;
+  background: white;
+  transition: 0.3s ease;
+}
+
+/* Hamburger animation */
+.bar1open {
+  transform: rotate(45deg) translate(6px, 6px);
+}
+.bar2open {
+  opacity: 0;
+}
+.bar3open {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* -------- Mobile Styles -------- */
+/* -------- Mobile Styles -------- */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  /* Keep navbar height fixed */
+  .container {
+    height: 70px;
+    padding: 10px 20px;
+  }
+
+  .menu {
+    position: absolute;
+    top: 70px;        /* exactly matches navbar height */
+    right: 0;
+    left: 0;
+
+    background: #553D1D;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    padding: 20px 0;
+
+    /* Hidden by default */
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+
+  /* When menu is open — no gap below navbar */
+  .menuOpen {
+    max-height: 300px;  /* enough space for items */
+    opacity: 1;
+    visibility: visible;
+  }
+}

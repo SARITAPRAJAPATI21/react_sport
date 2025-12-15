@@ -1,0 +1,115 @@
+/* MAIN WRAPPER */
+.donation {
+  width: 100%;
+  min-height: 60vh;
+  padding: 80px 20px;
+
+  background-image: url('../assets/donation.png');
+  background-color: #FFE7B4;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+/* HEADING */
+.donation h3 {
+  font-family: "Oswald";
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* PARAGRAPH */
+.donation p {
+  max-width: 900px;
+  font-family: "Quattrocento";
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.4;
+  margin-bottom: 40px;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  background-color: #FBBD3B;
+  padding: 14px 28px;
+  border-radius: 40px;
+  font-family: "Quattrocento";
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* ----------------------------- */
+/* RESPONSIVENESS */
+/* ----------------------------- */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .donation h3 {
+    font-size: 40px;
+  }
+
+  .donation p {
+    font-size: 18px;
+    max-width: 700px;
+  }
+
+  .btn {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .donation {
+    padding: 60px 15px;
+  }
+
+  .donation h3 {
+    font-size: 32px;
+  }
+
+  .donation p {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 16px;
+    width: 100%;
+    max-width: 320px;
+    padding: 14px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .donation h3 {
+    font-size: 28px;
+  }
+
+  .donation p {
+    font-size: 15px;
+  }
+
+  .btn {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,92 @@
+/* ----- MAIN WRAPPER ----- */
+.HomeAbout {
+  width: 100%;
+  background-color: #FFE7B4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 5%;
+  gap: 50px;
+
+  flex-wrap: wrap;
+}
+
+/* ----- LEFT SIDE TEXT ----- */
+.container1 {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-family: 'Oswald';
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.para {
+  font-family: 'Quattrocento';
+  font-size: clamp(16px, 2vw, 20px);
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ----- RIGHT SIDE IMAGES ----- */
+.container2 {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.img1,
+.img2 {
+  width: clamp(180px, 30vw, 280px);
+  height: auto;
+  border-radius: 16px;
+}
+
+.img2 {
+  margin-top: 40px;
+}
+
+/* ----- TABLET ----- */
+@media (max-width: 900px) {
+  .HomeAbout {
+    padding: 40px 4%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container2 {
+    justify-content: center;
+  }
+
+  .img2 {
+    margin-top: 20px;
+  }
+}
+
+/* ----- MOBILE ----- */
+@media (max-width: 500px) {
+  .container2 {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .img1,
+  .img2 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .img2 {
+    margin-top: 0;
+  }
+}

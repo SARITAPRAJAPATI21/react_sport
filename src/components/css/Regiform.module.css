@@ -1,0 +1,168 @@
+.container {
+  background-color: #FFE7B4;
+  padding: 80px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Section 1: Personal Info */
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Rows */
+.r1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap; /* wrap on smaller screens */
+}
+
+/* Columns */
+.c1 {
+  flex: 1 1 45%; /* grow, shrink, base width 45% */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 200px;
+}
+
+#in {
+  height: 50px;
+  border-radius: 8px;
+  border: 1px solid #B6B6B6;
+  background-color: #FFF7F7;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Labels */
+.label,
+.label1 {
+  font-family: "Quattrocento";
+  font-size: clamp(16px, 2vw, 24px);
+  font-weight: 700;
+}
+
+.label::after,
+.rtitle::after {
+  content: "*";
+  color: red;
+}
+
+/* Section 2: Radio Buttons */
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+  width: 100%;
+  justify-content: center;
+}
+
+.radio1,
+.radio2,
+.radio3 {
+  background-color: #FFE7B4;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+
+/* Radio Options */
+.roption {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rtitle {
+  font-family: "Quattrocento";
+  font-size: clamp(16px, 2vw, 24px);
+  font-weight: 700;
+}
+
+.labelradio {
+  font-family: "Quattrocento";
+  font-size: clamp(14px, 1.8vw, 20px);
+  font-weight: 400;
+}
+
+/* Password Section */
+.pass {
+  margin-top: 30px;
+  width: 50%;
+  max-width: 500px;
+}
+
+/* Register Button */
+.btn {
+  width: 100%;
+  max-width: 250px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 520px;
+  background-color: #B95B00;
+  color: white;
+  font-family: 'Quattrocento';
+  font-size: clamp(16px, 2vw, 24px);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+/* ---------------- TABLET ---------------- */
+@media (max-width: 768px) {
+  .c1 {
+    flex: 1 1 100%;
+  }
+
+  .section2 {
+    gap: 15px;
+  }
+
+  .radio1,
+  .radio2,
+  .radio3 {
+    flex: 1 1 100%;
+  }
+}
+.passIn {
+ width: 50%;
+}
+
+/* ---------------- MOBILE ---------------- */
+@media (max-width: 480px) {
+  #in {
+    height: 45px;
+    font-size: 14px;
+  }
+
+  .btn {
+    height: 45px;
+    font-size: 18px;
+  }
+
+  .rtitle,
+  .label,
+  .labelradio {
+    font-size: 14px;
+  }
+}

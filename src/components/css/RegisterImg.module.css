@@ -1,0 +1,89 @@
+.container {
+  background-color: #FFE7B4;
+  background-image: url('../assets/2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  min-height: calc(100vh - 80px); /* Subtract navbar height */
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 5%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Title */
+.title {
+  color: white;
+  font-family: "Oswald";
+  font-size: clamp(32px, 6vw, 70px);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  max-width: 900px;
+}
+
+/* Paragraph */
+.para {
+  color: white;
+  font-family: "Quattrocento";
+  font-size: clamp(18px, 3.6vw, 34px);
+  font-weight: 600;
+  line-height: 1.4;
+  max-width: 900px;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.btn {
+  border: none;
+  background-color: #4BB36B;
+  width: 180px;
+  height: 52px;
+  border-radius: 520px;
+  color: white;
+
+  font-family: "Quattrocento";
+  font-size: 20px;
+  font-weight: 700;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* ------------------ TABLET ------------------ */
+@media (max-width: 768px) {
+  .container {
+    padding: 60px 20px;
+    min-height: calc(100vh - 80px);
+  }
+
+  .para {
+    line-height: 1.3;
+  }
+
+  .btn {
+    width: 160px;
+    height: 46px;
+    font-size: 18px;
+  }
+}
+
+/* ------------------ MOBILE ------------------ */
+@media (max-width: 480px) {
+  .btn {
+    width: 150px;
+    height: 44px;
+    font-size: 16px;
+  }
+}

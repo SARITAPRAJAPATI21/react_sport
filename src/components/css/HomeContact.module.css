@@ -1,0 +1,160 @@
+/* MAIN SECTION */
+.contact {
+  width: 100%;
+  background-color: #FFE7B4;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  flex-wrap: wrap;
+  padding: 80px 5%;
+  gap: 50px;
+}
+
+/* LEFT SIDE — TITLE + TEXT */
+.contact1 {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title {
+  font-family: "Oswald";
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.para {
+  font-family: "Quattrocento";
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+/* RIGHT SIDE — FORM */
+.contact2 {
+  max-width: 600px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* FORM GROUPS */
+.content1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+#name,
+#message {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+/* LABELS */
+.label,
+.label2,
+.label3 {
+  font-family: "Quattrocento";
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* INPUTS */
+#nameInput,
+#emailInput,
+#messageIn {
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  resize: none;
+}
+
+/* SUBMIT BUTTON */
+.btn {
+  width: fit-content;
+  padding: 12px 40px;
+  border-radius: 40px;
+  border: none;
+
+  background-color: #B95B00;
+  color: white;
+
+  font-family: "Quattrocento";
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #a85000;
+}
+
+
+/* ------------------------------ */
+/* 📱 TABLET */
+/* ------------------------------ */
+@media (max-width: 768px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .para {
+    font-size: 18px;
+  }
+
+  #nameInput,
+  #emailInput,
+  #messageIn {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+}
+
+/* ------------------------------ */
+/* 📱 MOBILE */
+/* ------------------------------ */
+@media (max-width: 480px) {
+  .contact {
+    padding: 50px 5%;
+    gap: 30px;
+  }
+
+  .contact1 {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .para {
+    font-size: 16px;
+  }
+
+  .label,
+  .label2,
+  .label3 {
+    font-size: 18px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 12px 0;
+  }
+}

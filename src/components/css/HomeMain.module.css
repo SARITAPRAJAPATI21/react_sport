@@ -1,0 +1,97 @@
+/* ----- MAIN SECTION ----- */
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../assets/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #FFE7B4;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5%;
+}
+
+/* ----- TITLE ----- */
+.title {
+  font-family: "Oswald", sans-serif;
+  font-size: clamp(36px, 6vw, 70px);
+  font-weight: 500;
+  text-transform: uppercase;
+  color: white;
+  max-width: 600px;
+}
+
+/* ----- PARAGRAPH ----- */
+.para {
+  color: white;
+  font-family: 'Quattrocento', serif;
+  font-size: clamp(18px, 2.5vw, 30px);
+  margin-top: 15px;
+  max-width: 700px;
+}
+
+/* ----- BUTTON WRAPPER ----- */
+.btnGroup {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* ----- BUTTONS ----- */
+.jbtn,
+.fbtn {
+  text-decoration: none;
+  padding: 12px 32px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+
+  font-family: 'Quattrocento';
+  font-size: clamp(18px, 2.1vw, 26px);
+  font-weight: 700;
+
+  transition: 0.3s ease;
+}
+
+.jbtn:hover,
+.fbtn:hover {
+  background: #B95B00;
+  border-color: #B95B00;
+}
+
+/* ----- MOBILE (TABLETS & BELOW) ----- */
+@media (max-width: 768px) {
+  .container {
+    text-align: center;
+    align-items: center;
+  }
+
+  .title, .para {
+    max-width: 90%;
+  }
+
+  .btnGroup {
+    justify-content: center;
+  }
+}
+
+/* ----- SMALL MOBILE PHONES ----- */
+@media (max-width: 480px) {
+  .btnGroup {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .jbtn,
+  .fbtn {
+    width: 80%;
+    text-align: center;
+  }
+}

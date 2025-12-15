@@ -1,0 +1,83 @@
+/* SINGLE TIME CARD */
+.container {
+  background-color: #553D1D;
+  border-radius: 8px;
+
+  width: 100%;
+  max-width: 160px;
+  aspect-ratio: 1 / 1; /* maintain square shape */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Number */
+.number {
+  font-family: "Oswald";
+  font-size: clamp(40px, 8vw, 80px);
+  font-weight: 700;
+  line-height: 1;
+  color: white;
+  text-align: center;
+}
+
+/* Unit Text */
+.text {
+  font-family: "Quattrocento";
+  font-size: clamp(16px, 2.5vw, 24px);
+  font-weight: 700;
+  line-height: 1.2;
+  color: white;
+  text-align: center;
+}
+
+/* TIME CONTAINER */
+.timecontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(10px, 3vw, 24px);
+
+  background-color: #FFE7B4;
+  width: 100%;
+  padding: 80px 10px;
+  box-sizing: border-box;
+  flex-wrap: wrap; /* wrap on small screens */
+}
+
+/* ---------------- TABLET ---------------- */
+@media (max-width: 768px) {
+  .container {
+    max-width: 130px;
+  }
+  .number {
+    font-size: clamp(30px, 7vw, 60px);
+  }
+  .text {
+    font-size: clamp(14px, 3vw, 20px);
+  }
+}
+
+/* ---------------- MOBILE ---------------- */
+@media (max-width: 480px) {
+  .container {
+    max-width: 100px;
+  }
+  .number {
+    font-size: clamp(24px, 10vw, 50px);
+  }
+  .text {
+    font-size: clamp(12px, 4vw, 18px);
+  }
+}
